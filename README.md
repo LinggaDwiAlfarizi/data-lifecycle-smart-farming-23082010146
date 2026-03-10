@@ -1,13 +1,16 @@
 🌱 Smart Farming Data Lifecycle Dashboard
+
 📌 Deskripsi Proyek
     Proyek ini bertujuan untuk menganalisis dan memonitor data sensor kelembaban tanah (soil moisture) pada sistem Smart Farming. Data yang digunakan diproses melalui tahapan Data Lifecycle, mulai dari pengumpulan data, pembersihan data, analisis, hingga visualisasi menggunakan dashboard interaktif berbasis Streamlit.
     Dashboard ini memungkinkan pengguna untuk memantau kondisi kelembaban tanah dari beberapa sensor serta memperoleh insight yang dapat membantu pengambilan keputusan dalam pengelolaan irigasi tanaman.
+    
 🎯 Tujuan Penelitian
 Tujuan dari proyek ini adalah:
 - Mengimplementasikan tahapan Data Lifecycle pada data sensor IoT.
 - Menganalisis data kelembaban tanah dari beberapa sensor.
 - Menyajikan visualisasi data menggunakan dashboard interaktif.
 - Memberikan insight yang dapat membantu pengelolaan irigasi tanaman secara lebih efisien.
+  
 📊 Dataset
 Dataset yang digunakan berisi data pembacaan sensor kelembaban tanah dari beberapa sensor pada sistem plant vase.
 Struktur Dataset
@@ -44,6 +47,7 @@ Data_Lifecycle_Smart_Farming.ipynb
 4️⃣ Data Visualization Dashboard
 Dashboard interaktif dibuat menggunakan Streamlit untuk memvisualisasikan data sensor.
 Fitur dashboard meliputi:
+
 📊 Key Metrics
 Menampilkan informasi utama dari data seperti:
 Rata-rata kelembaban tanah
@@ -69,6 +73,7 @@ https://data-lifecycle-smart-farming-23082010146-p2sxyk5xh83vn2q4jgp37.streamlit
 Untuk menjalankan dashboard secara lokal:
 pip install -r requirements.txt
 streamlit run Dashboard/streamlit_app.py
+
 🛠️ Teknologi yang Digunakan
 - Python
 - Pandas
@@ -76,14 +81,17 @@ streamlit run Dashboard/streamlit_app.py
 - Seaborn
 - Plotly
 - Streamlit
+  
 🚀 Pengembangan Selanjutnya
 Beberapa pengembangan yang dapat dilakukan pada proyek ini:
 - Implementasi deteksi anomali pada sensor
 - Prediksi kelembaban tanah menggunakan Machine Learning
 - Rekomendasi irigasi otomatis
 - Integrasi dengan sensor IoT secara real-time
+  
 👨‍💻 Author
 Lingga Dwi Al Farizi
 Mahasiswa Sistem Informasi
+
 ⭐ Catatan
 Proyek ini dibuat sebagai implementasi analisis data berbasis Data Lifecycle pada sistem Smart Farming serta sebagai demonstrasi penggunaan Python dan Streamlit dalam visualisasi data.

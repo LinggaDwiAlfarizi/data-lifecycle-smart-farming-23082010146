@@ -16,7 +16,7 @@ st.write("Monitoring Soil Moisture Sensor from Plant Vase")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../outputs/cleaned_data.csv")
+    df = pd.read_csv("outputs/cleaned_data.csv")
     df['datetime'] = pd.to_datetime(df['datetime'])
     return df
 

@@ -103,8 +103,11 @@ Beberapa pengembangan yang dapat dilakukan pada proyek ini:
 - Integrasi dengan sensor IoT secara real-time
   
 👨‍💻 Author
+
 Lingga Dwi Al Farizi
+
 Mahasiswa Sistem Informasi
 
 ⭐ Catatan
+
 Proyek ini dibuat sebagai implementasi analisis data berbasis Data Lifecycle pada sistem Smart Farming serta sebagai demonstrasi penggunaan Python dan Streamlit dalam visualisasi data.
